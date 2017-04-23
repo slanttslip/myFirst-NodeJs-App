@@ -114,7 +114,7 @@
                                 </div>
 
 
-                                <button style="margin-top: 10px" type="submit" class="btn btn-primary btn-lg" ng-click="updateMovie(movieDataUpdate.id)">UPDATE</button>
+                                <button style="margin-top: 10px" type="submit" class="btn btn-primary btn-lg" ng-disabled="updateForm.title.$invalid||updateForm.rating.$invalid" ng-click="updateMovie(movieDataUpdate.id)">UPDATE</button>
                             </form>
                         </div>
                     </div>
