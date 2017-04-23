@@ -6,13 +6,13 @@ var movies= [{
     title: 'Titanic',
     description: 'Best Movie',
     rating: 10,
-    released: "03/25/2015"
+    released: "1996-03-30"
 },
     { id:2,
         title: 'HarryPotter',
         description: 'Best Movie 2',
         rating: 10,
-        released: "03/25/2016"
+        released: "2001-03-30"
     }
 ];
 
